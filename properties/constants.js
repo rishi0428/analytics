@@ -1,0 +1,25 @@
+/**
+ * Created by Rishikesh on 10/05/20.
+ */
+
+const RESPONSE_MESSAGES = {
+  "PARAMETER_MISSING"         : "PARAMETER MISSING",
+  "ACTION_COMPLETE"           : "ACTION COMPLETE",
+  "SHOW_ERROR_MESSAGE"        : "SOMETHING WENT WRONG",
+  "ERROR_IN_EXECUTION"        : "ERROR IN EXECUTION"
+};
+
+//FOR FLAGS
+const RESPONSE_FLAGS = {
+  PARAMETER_MISSING        : 400,
+  ACTION_COMPLETE          : 200,
+  SHOW_ERROR_MESSAGE       : 400,
+  ERROR_IN_EXECUTION       : 400
+};
+
+const MONGO_COLLECTIONS = {
+  QUESTIONS: "Questions",
+  USERS    : "User"
+}
+
+module.exports = {RESPONSE_FLAGS, RESPONSE_MESSAGES, MONGO_COLLECTIONS};

@@ -1,0 +1,5 @@
+_store
+*.DS_Store
+*.idea
+/node_modules
+config/live.json

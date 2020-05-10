@@ -1,0 +1,6 @@
+{
+  "PORT": 3000,
+  "apiURL" : "http://localhost:/8080/",
+  "mongo_db_connection":"mongodb://localhost:27017",
+  "mongo_database":"analytics"
+}
